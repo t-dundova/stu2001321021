@@ -2,7 +2,47 @@
 <html lang="en">
 <head>
     <style>
+       
+        nav{
+            width: 20%;
+            float: left;
+            text-align: center;
+            position: sticky;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #666699;
+        }
+        a{
+            text-decoration: none;
+            width: 100%;
+            color: #e6e6ff;
+            font-size: 1.5em;
+            display: block;
+            margin: 15px 0;
+        }
+        a:hover{
+            background-color: #e6e6ff;
+            color: #666699;
+        }
+        .info{
+            width: 80%;
+            float: right;
+        }
+        .item{
+            width:100%;
+        }
+        h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2em;
 
+        }
+        p{
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+        }
 
     </style>
     <meta charset="UTF-8">
@@ -10,8 +50,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>Hello</h1>
+    <nav>
+        <a href="#AboutMe">About me</a>
+        <a href="#hobbies">My hobbies</a>
+        <a href="#Info">Channel Info</a>
+    </nav>
+    <div class="info">
+        <div class="item" id="AboutMe">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis reiciendis consequatur doloremque! Impedit earum, non beatae quibusdam incidunt temporibus accusantium laboriosam minus in nihil repudiandae quaerat, ipsa officia corporis?</p>
+        </div>
+        <hr>
+        <div class="item" id="hobbies">
+            <h3>My hobbies</h3>
+            <p></p>
+        </div>
+        <hr>
+        <div class="item" id="Info">
+            <h3>Channel Info</h3>
+            <p></p>
+        </div>
     </div>
 </body>
 </html>
